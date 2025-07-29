@@ -1,6 +1,7 @@
 
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://localhost:27017/backend-pharmacy"; 
+const mongoURI = "mongodb+srv://hanzalarehman804:bitsphile@cluster0.gicunyt.mongodb.net/pharmacy?retryWrites=true&w=majority&appName=Cluster0";
+
 
 const connectToMongo = async () => {
   try {
